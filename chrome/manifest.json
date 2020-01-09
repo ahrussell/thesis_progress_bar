@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Motivational Thesis Progress Tracker",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://overleaf.com/project/*", 
+        "http://overleaf.com/project/*",
+        "http://www.overleaf.com/project/*",
+        "https://www.overleaf.com/project/*"
+      ],
+      "js": [
+        "jquery-3.4.1.min.js",
+        "content.js"
+      ],
+      "css": ["loading_bar.css"]
+    }
+  ]
+}

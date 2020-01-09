@@ -1,0 +1,58 @@
+#motivational {
+ height: 30px;
+ width: 96%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ background-color: #DFDFDF;
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border-top: 1px solid #CCCCCC;
+}
+
+#whole_shebang {
+ position: fixed;
+ left: 10%;
+ right: 10%;
+ bottom: 30px;
+ height: 70px;
+ z-index: 1001; 
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#progress_bar {
+ text-align: center;
+ background-color: #DDDDDD;
+ border-radius: 5px;
+ height: 40px;
+ padding-top: 1px;
+}
+
+#bar_background {
+ text-align: center;
+ background-color: #BBBBBB;
+ height: 30px;
+ margin-top: 4px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-bottom: 5px;
+}
+
+#bar_progress {
+ background-color: green;
+ margin: 0;
+ width: 60%;
+ height: 100%;
+}
+
+#bar_text {
+ position:absolute;
+ color: #111111;
+ z-index: 1002;
+ width: 100%;
+ text-align: center;
+ font-size: 12pt;
+}
+
